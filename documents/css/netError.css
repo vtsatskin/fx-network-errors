@@ -43,6 +43,10 @@ ul {
   -webkit-padding-start: 58px;
 }
 
+#errorTitleText.missing-icon {
+  background-image: url("../images/missing.svg");
+}
+
 #errorTitleText:-moz-dir(rtl) {
   background-position: right 0;
 }
