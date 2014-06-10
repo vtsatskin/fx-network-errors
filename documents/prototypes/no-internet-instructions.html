@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<html>
+  <head>
+    <title>No internet connection</title>
+    <link rel="stylesheet" href="../css/netError.css" type="text/css" media="all"></link>
+    <!-- If the location of the favicon is changed here, the FAVICON_ERRORPAGE_URL symbol in
+         toolkit/components/places/src/nsFaviconService.h should be updated. -->
+<!--     <link rel="icon" type="image/png" id="favicon" href="chrome://global/skin/icons/warning-16.png"/> -->
+  </head>
+
+  <body dir="ltr">
+
+    <!-- PAGE CONTAINER (for styling purposes only) -->
+    <div id="errorPageContainer">
+
+      <!-- Error Title -->
+      <div id="errorTitle">
+        <h1 id="errorTitleText" class="no-internet-icon">No internet connection</h1>
+      </div>
+
+      <!-- LONG CONTENT (the section most likely to require scrolling) -->
+      <div id="errorLongContent">
+        <!-- Long Description (Note: See netError.dtd for used XHTML tags) -->
+        <div id="errorLongDesc">
+          <p>Firefox can't display this page because your computer is not connected
+          to the internet.</p>
+          <p>
+            Go to
+            <strong>Applications > System Preferences > Network > Assist me</strong>
+            to test your connection.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -51,6 +51,10 @@ ul {
   background-image: url("../images/broken.connection.by.Dimitri.Kunin.svg");
 }
 
+#errorTitleText.no-internet-icon {
+  background-image: url("../images/no.internet.by.Ugur.Akdemir.svg");
+}
+
 #errorTitleText:-moz-dir(rtl) {
   background-position: right 0;
 }
