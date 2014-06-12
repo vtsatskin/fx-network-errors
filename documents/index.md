@@ -86,6 +86,13 @@ licensed under Creative Commons – Attribution (CC BY 3.0).
 
 <iframe src="prototypes/corrupted-content.html" class="netErrorProto" style="height: 340px"></iframe>
 
+#### Redirect Loop
+
+We don't show a "Try Again" button because reloading an infinite redirect loop
+would be madness.
+
+<iframe src="prototypes/redirect-loop.html" class="netErrorProto" style="height: 270px"></iframe>
+
 ### Removed Errors
 
 "Invalid Address" and "Malformed URI" should both be treated as search results.

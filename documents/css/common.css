@@ -99,3 +99,8 @@ hr {
   margin-bottom: 26px;
   height: 2px;
 }
+
+a {
+  color: #0095DD;
+  text-decoration: none;
+}
