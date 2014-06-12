@@ -6,6 +6,8 @@ template: index.jade
 These are error pages which complement the visual style established in
 [Project Chameleon](http://people.mozilla.org/~jgruen/chameleon/).
 
+Best viewed in a recent version of Firefox. Things break in other browsers.
+
 ## Specifications
 
 ### Server not found
