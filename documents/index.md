@@ -75,3 +75,10 @@ The assumption is that most people should be able to understand the wifi symbol.
 
 The icon is authored by [Ugur Akdemir](thenounproject.com/ugur.akdemir/) and
 licensed under Creative Commons – Attribution (CC BY 3.0).
+
+### Page display error
+
+#### Content Encoding
+
+<iframe src="prototypes/content-encoding.html" class="netErrorProto" style="height: 340px"></iframe>
+

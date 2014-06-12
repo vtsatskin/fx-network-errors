@@ -55,6 +55,10 @@ ul {
   background-image: url("../images/no.internet.by.Ugur.Akdemir.svg");
 }
 
+#errorTitleText.broken-page {
+  background-image: url("../images/broken.page.svg");
+}
+
 #errorTitleText:-moz-dir(rtl) {
   background-position: right 0;
 }

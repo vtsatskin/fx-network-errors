@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<html>
+  <head>
+    <title>Can't display page</title>
+    <link rel="stylesheet" href="../css/netError.css" type="text/css" media="all"></link>
+    <!-- If the location of the favicon is changed here, the FAVICON_ERRORPAGE_URL symbol in
+         toolkit/components/places/src/nsFaviconService.h should be updated. -->
+<!--     <link rel="icon" type="image/png" id="favicon" href="chrome://global/skin/icons/warning-16.png"/> -->
+    <style type="text/css" media="screen">
+      #extraCopy {
+        font-weight: bold;
+        opacity: 0;
+        height: 0;
+        transition: all 1s ease-in-out;
+      }
+    </style>
+  </head>
+
+  <body dir="ltr">
+
+    <!-- PAGE CONTAINER (for styling purposes only) -->
+    <div id="errorPageContainer">
+
+      <!-- Error Title -->
+      <div id="errorTitle">
+        <h1 id="errorTitleText" class="broken-page">Can't display page</h1>
+      </div>
+
+      <!-- LONG CONTENT (the section most likely to require scrolling) -->
+      <div id="errorLongContent">
+
+        <!-- Short Description -->
+        <div id="errorLongDesc">
+          <p id="errorLongDescText">
+            Firefox can't display this page because a content encoding error
+            occured.
+          </p>
+        </div>
+
+        <!-- Retry Button -->
+        <button id="errorTryAgain" autocomplete="off">Try Again</button>
+
+        <p id="extraCopy">
+          The definition of insanity is doing the same thing over and over again
+          and expecting a different result. Firefox might be driving you insane.
+          You way want to try the site again at a later time to retain your sanity.
+        </p>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+      var retry = document.querySelector("#errorTryAgain");
+      var extraCopy = document.querySelector("#extraCopy");
+      var clickCount = 0;
+
+      var showExtraCopy = function() {
+        extraCopy.style.height = "auto";
+        extraCopy.style.opacity = 1;
+      }
+
+      retry.addEventListener("click", function() {
+        clickCount++;
+        if(clickCount > 1) {
+          showExtraCopy();
+        }
+      });
+    </script>
+  </body>
+</html>
