@@ -1,0 +1,106 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* From https://github.com/buildingfirefoxos/Building-Blocks/blob/gh-pages/fonts.css */
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../css/fonts/FiraSans-Regular.eot');
+  src: url('../css/fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../css/fonts/FiraSans-Regular.woff') format('woff'),
+       url('../css/fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../css/fonts/FiraSans-Light.eot');
+  src: url('../css/fonts/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('../css/fonts/FiraSans-Light.woff') format('woff'),
+       url('../css/fonts/FiraSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../css/fonts/FiraSans-Bold.eot');
+  src: url('../css/fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../css/fonts/FiraSans-Bold.woff') format('woff'),
+       url('../css/fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: FiraSans;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  color: #333;
+  background: #F1F1F1;
+}
+
+h1 {
+  font-size: 40px; /* Roughly 40px */
+  font-weight: lighter;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: FiraSans;
+  font-weight: lighter;
+  font-size: 14px;
+  height: 30px;
+  max-height: 30px;
+  color: #333;
+  border: 1px solid #C1C1C1;
+  border-radius: 2px;
+  background-color: #FBFBFB;
+  text-shadow: 0 1px 1px #FEFFFE;
+  -moz-appearance: none;
+  -moz-border-top-colors: none !important;
+  -moz-border-right-colors: none !important;
+  -moz-border-bottom-colors: none !important;
+  -moz-border-left-colors: none !important;
+}
+
+button:enabled:hover {
+  background-color: #EBEBEB;
+  cursor: pointer;
+}
+
+button:focus {
+  border-color: #0095DD;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button:enabled:hover:active {
+  background-color: #DADADA;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  color: rgba(115,121,128,.5);
+  border-color: rgba(23,50,77,.25);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.1));
+  text-shadow: 0 1px 1px #fff;
+}
+
+hr {
+  background: #C7C7C7;
+  color: #C7C7C7;
+  border: 0;
+  margin-bottom: 26px;
+  height: 2px;
+}
+
+a {
+  color: #0095DD;
+  text-decoration: none;
+}
