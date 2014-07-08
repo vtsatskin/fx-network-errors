@@ -96,3 +96,74 @@ would be madness.
 ### Removed Errors
 
 "Invalid Address" and "Malformed URI" should both be treated as search results.
+
+## Iconography
+
+<div class="grid">
+  <div class="col-4-12">
+    <h3>Broken Connection</h3>
+    <img src="images/broken.connection.by.Dimitri.Kunin.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> [The Noun Project](http://thenounproject.com/term/broken-connection/11644/)</li>
+      <li><strong>Author:</strong> [Dmitri Kunin](http://thenounproject.com/dmitri.kunin/)</li>
+      <li><strong>License:</strong> Public Domain</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>Missing Page</h3>
+    <img src="images/missing.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> Original work</li>
+      <li><strong>Author:</strong> Valentin Tsatskin</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>Broken Page</h3>
+    <img src="images/broken.page.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> Original work</li>
+      <li><strong>Author:</strong> Valentin Tsatskin</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-4-12">
+    <h3>Info</h3>
+    <img src="images/info.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> Mozilla</li>
+      <li><strong>Author:</strong> Unknown</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>No Internet</h3>
+    <img src="images/no.internet.by.Ugur.Akdemir.svg"  width="200">
+    <ul>
+      <li><strong>Source:</strong> [The Noun Project](http://thenounproject.com/term/disconnected/26774/)</li>
+      <li><strong>Author:</strong> [Ugur Akdemir](http://thenounproject.com/ugur.akdemir/)</li>
+      <li><strong>License:</strong> Creative Commons – Attribution (CC BY 3.0)</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>Broken Page</h3>
+    <img src="images/broken.page.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> [The Noun Project](http://thenounproject.com/term/disconnected/26774/)</li>
+      <li><strong>Author:</strong> [Ugur Akdemir](http://thenounproject.com/ugur.akdemir/)</li>
+      <li><strong>License:</strong> Creative Commons – Attribution (CC BY 3.0)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-4-12">
+    <h3>Disconnected</h3>
+    <img src="images/plug-in.by.Florian.Huber.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> [The Noun Project](http://thenounproject.com/term/plug-in/4032/)</li>
+      <li><strong>Author:</strong> [Florian Huber](http://thenounproject.com/itshorty/)</li>
+      <li><strong>License:</strong> Creative Commons – Attribution (CC BY 3.0)</li>
+    </ul>
+  </div>
+</div>
