@@ -96,6 +96,10 @@ would be madness.
 ### Document Expired
 
 <iframe src="prototypes/document-expired.html" class="netErrorProto" style="height: 280px"></iframe>
+
+### File not found
+
+<iframe src="prototypes/file-not-found.html" class="netErrorProto" style="height: 200px"></iframe>
 ### Removed Errors
 
 "Invalid Address" and "Malformed URI" should both be treated as search results.
