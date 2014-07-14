@@ -100,6 +100,10 @@ would be madness.
 ### File not found
 
 <iframe src="prototypes/file-not-found.html" class="netErrorProto" style="height: 200px"></iframe>
+
+### Generic Error
+
+<iframe src="prototypes/generic.html" class="netErrorProto" style="height: 340px"></iframe>
 ### Removed Errors
 
 "Invalid Address" and "Malformed URI" should both be treated as search results.
