@@ -104,6 +104,15 @@ would be madness.
 ### Generic Error
 
 <iframe src="prototypes/generic.html" class="netErrorProto" style="height: 340px"></iframe>
+
+### Proxy Issues
+
+Pressing the "Proxy Settings" button in the following two errors should open
+Firefox's proxy configuration window.
+
+#### Proxy not found
+
+<iframe src="prototypes/proxy-not-found.html" class="netErrorProto" style="height: 340px"></iframe>
 ### Removed Errors
 
 "Invalid Address" and "Malformed URI" should both be treated as search results.
