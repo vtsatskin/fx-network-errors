@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>A Mozilla Design Document</title><link rel="stylesheet" href="css/mozdoc/style.css"><link rel="stylesheet" href="css/mozdoc/octicons/octicons.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,600italic,300italic,700italic"><link rel="stylesheet" href="css/style.css"></head><body><div class="container"><header><h1>Network Error Pages</h1><div class="version-info"><div href="http://github.com" class="version-info-history"><span class="octicon octicon-mark-github"></span><a href="#todo" class="version-info-history-link">Revision History</a></div><span class="octicon octicon-git-branch"></span><select class="version-info-select"><option value="../master/index.html" selected>master</option></select></div></header><ul id="toc"></ul><p>These are error pages which complement the visual style established in
+<a href="http://people.mozilla.org/~jgruen/chameleon/">Project Chameleon</a>.</p>
+<p>Best viewed in a recent version of Firefox. Things break in other browsers.</p>
+<h2 id="specifications">Specifications</h2>
+<h3 id="server-not-found">Server not found</h3>
+<h4 id="old-copy">Old Copy</h4>
+<iframe src="prototypes/server-not-found.html" class="netErrorProto"></iframe>
+
+<h4 id="new-copy">New copy</h4>
+<p>Note: The search engine is based off of the user&#39;s selected search engine. Do
+not interpret this as Firefox changing its default search engine.</p>
+<iframe src="prototypes/page-not-found.html" class="netErrorProto" style="height: 300px"></iframe>
+
+<h3 id="connection-issues">Connection Issues</h3>
+<p>Miscellaneous connection errors have been grouped together. This includes:</p>
+<ul>
+<li>Connection Timeout</li>
+<li>Connection Reset</li>
+<li>Connection Interrupted</li>
+<li>Connection Failure</li>
+<li>Unknown Socket</li>
+</ul>
+<p>If the user keeps getting the same error, they will get some extra copy. Try
+pressing the &quot;try again&quot; button a few times yourself.</p>
+<iframe src="prototypes/connection-issue.html" class="netErrorProto" style="height: 360px"></iframe>
+
+<p>In case the copy is too edgy, a watered down version is available too.</p>
+<blockquote>
+<p>It looks like the site Firefox keeps trying to reach is not working
+at this time. You way want to try the site again at a later time.</p>
+</blockquote>
+<p>Icon authored by <a href="http://thenounproject.com/dmitri.kunin/">Dmitri Kunin</a> and
+released into the Public Domain.</p>
+<h3 id="no-internet-connection">No internet connection</h3>
+<p>A new error page should be created which will be triggered when a network error
+happens as a result of the user not being connected to the internet. More discussion and rationale can be found in <a href="https://people.mozilla.org/~vtsatskin/notes/Projects/Message%20Cleanup/proposed.design">Internet Connectivity discussion</a>.</p>
+<p>If the operating system has a network diagnostics tool such as OS X and Windows,
+the following error page will be shown.</p>
+<iframe src="prototypes/no-internet.html" class="netErrorProto" style="height: 280px"></iframe>
+
+<p>Otherwise, if the steps are known how to diagnose the internet connection,
+display system specific instructions as follows.</p>
+<iframe src="prototypes/no-internet-instructions.html" class="netErrorProto" style="height: 280px"></iframe>
+
+<p>If no information is known how to solve the problem (e.g esoteric distribution of BSD), something like the following copy can be used.</p>
+<blockquote>
+<p>Go to your computer&#39;s network settings to ensure your internet connection is
+configured correctly.</p>
+</blockquote>
+<p>Once the network error has been resolved and Firefox detects a working
+connection, the user&#39;s tab should be <strong>automatically reloaded</strong> to display the
+page.</p>
+<p>A WiFi icon was chosen due to ever-growing popularity of wireless connections.
+The assumption is that most people should be able to understand the wifi symbol.</p>
+<p>The icon is authored by <a href="/thenounproject.com/ugur.akdemir/">Ugur Akdemir</a> and
+licensed under Creative Commons – Attribution (CC BY 3.0).</p>
+<h3 id="page-display-error">Page display error</h3>
+<h4 id="content-encoding">Content Encoding</h4>
+<iframe src="prototypes/content-encoding.html" class="netErrorProto" style="height: 340px"></iframe>
+
+<h4 id="corrupted-content">Corrupted Content</h4>
+<iframe src="prototypes/corrupted-content.html" class="netErrorProto" style="height: 340px"></iframe>
+
+<h4 id="redirect-loop">Redirect Loop</h4>
+<p>We don&#39;t show a &quot;Try Again&quot; button because reloading an infinite redirect loop
+would be madness.</p>
+<iframe src="prototypes/redirect-loop.html" class="netErrorProto" style="height: 270px"></iframe>
+
+<h3 id="document-expired">Document Expired</h3>
+<iframe src="prototypes/document-expired.html" class="netErrorProto" style="height: 280px"></iframe>
+
+<h3 id="file-not-found">File not found</h3>
+<iframe src="prototypes/file-not-found.html" class="netErrorProto" style="height: 200px"></iframe>
+
+<h3 id="generic-error">Generic Error</h3>
+<iframe src="prototypes/generic.html" class="netErrorProto" style="height: 340px"></iframe>
+
+<h3 id="proxy-issues">Proxy Issues</h3>
+<p>Pressing the &quot;Proxy Settings&quot; button in the following two errors should open
+Firefox&#39;s proxy configuration window.</p>
+<h4 id="proxy-refusing-connections">Proxy refusing connections</h4>
+<iframe src="prototypes/proxy-refusing-connections.html" class="netErrorProto" style="height: 340px"></iframe>
+
+<h4 id="proxy-not-found">Proxy not found</h4>
+<iframe src="prototypes/proxy-not-found.html" class="netErrorProto" style="height: 340px"></iframe>
+
+<h3 id="work-offline-mode">Work Offline Mode</h3>
+<p>Pressing the &quot;Go online&quot; button should turn work offline mode off and reload
+the page.</p>
+<iframe src="prototypes/offline-mode.html" class="netErrorProto" style="height: 260px"></iframe>
+
+<h3 id="removed-errors">Removed Errors</h3>
+<p>&quot;Invalid Address&quot; and &quot;Malformed URI&quot; should both be treated as search results.</p>
+<h3 id="rtl">RTL</h3>
+<iframe src="prototypes/rtl.html" class="netErrorProto"></iframe>
+
+<h2 id="iconography">Iconography</h2>
+<div class="grid">
+  <div class="col-4-12">
+    <h3>Broken Connection</h3>
+    <img src="images/broken.connection.by.Dimitri.Kunin.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> <a href="http://thenounproject.com/term/broken-connection/11644/">The Noun Project</a></li>
+      <li><strong>Author:</strong> <a href="http://thenounproject.com/dmitri.kunin/">Dmitri Kunin</a></li>
+      <li><strong>License:</strong> Public Domain</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>Missing Page</h3>
+    <img src="images/missing.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> Original work</li>
+      <li><strong>Author:</strong> Valentin Tsatskin</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>Broken Page</h3>
+    <img src="images/broken.page.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> Original work</li>
+      <li><strong>Author:</strong> Valentin Tsatskin</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-4-12">
+    <h3>Info</h3>
+    <img src="images/info.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> Mozilla</li>
+      <li><strong>Author:</strong> Unknown</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>No Internet</h3>
+    <img src="images/no.internet.by.Ugur.Akdemir.svg"  width="200">
+    <ul>
+      <li><strong>Source:</strong> <a href="http://thenounproject.com/term/disconnected/26774/">The Noun Project</a></li>
+      <li><strong>Author:</strong> <a href="http://thenounproject.com/ugur.akdemir/">Ugur Akdemir</a></li>
+      <li><strong>License:</strong> Creative Commons – Attribution (CC BY 3.0)</li>
+    </ul>
+  </div>
+  <div class="col-4-12">
+    <h3>Disconnected</h3>
+    <img src="images/plug-in.by.Florian.Huber.svg" width="200">
+    <ul>
+      <li><strong>Source:</strong> <a href="http://thenounproject.com/term/plug-in/4032/">The Noun Project</a></li>
+      <li><strong>Author:</strong> <a href="http://thenounproject.com/itshorty/">Florian Huber</a></li>
+      <li><strong>License:</strong> Creative Commons – Attribution (CC BY 3.0)</li>
+    </ul>
+  </div>
+</div>
+<div class="footer"><hr><p>Mozilla 2014.</p></div></div></body><script src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script src="js/mozdoc/jquery.tableofcontents.min.js"></script><script src="js/mozdoc/ddscrollspy.js"></script><script src="js/mozdoc/app.js"></script></html>
