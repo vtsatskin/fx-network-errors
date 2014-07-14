@@ -146,18 +146,6 @@ would be madness.
     </ul>
   </div>
   <div class="col-4-12">
-    <h3>Broken Page</h3>
-    <img src="images/broken.page.svg" width="200">
-    <ul>
-      <li><strong>Source:</strong> [The Noun Project](http://thenounproject.com/term/disconnected/26774/)</li>
-      <li><strong>Author:</strong> [Ugur Akdemir](http://thenounproject.com/ugur.akdemir/)</li>
-      <li><strong>License:</strong> Creative Commons – Attribution (CC BY 3.0)</li>
-    </ul>
-  </div>
-</div>
-
-<div class="grid">
-  <div class="col-4-12">
     <h3>Disconnected</h3>
     <img src="images/plug-in.by.Florian.Huber.svg" width="200">
     <ul>
