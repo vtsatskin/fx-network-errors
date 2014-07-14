@@ -110,6 +110,10 @@ would be madness.
 Pressing the "Proxy Settings" button in the following two errors should open
 Firefox's proxy configuration window.
 
+#### Proxy refusing connections
+
+<iframe src="prototypes/proxy-refusing-connections.html" class="netErrorProto" style="height: 340px"></iframe>
+
 #### Proxy not found
 
 <iframe src="prototypes/proxy-not-found.html" class="netErrorProto" style="height: 340px"></iframe>
