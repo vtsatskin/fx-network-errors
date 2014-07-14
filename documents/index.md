@@ -117,6 +117,14 @@ Firefox's proxy configuration window.
 #### Proxy not found
 
 <iframe src="prototypes/proxy-not-found.html" class="netErrorProto" style="height: 340px"></iframe>
+
+### Work Offline Mode
+
+Pressing the "Go online" button should turn work offline mode off and reload
+the page.
+
+<iframe src="prototypes/offline-mode.html" class="netErrorProto" style="height: 260px"></iframe>
+
 ### Removed Errors
 
 "Invalid Address" and "Malformed URI" should both be treated as search results.

@@ -59,6 +59,10 @@ ul {
   background-image: url("../images/broken.page.svg");
 }
 
+#errorTitleText.disconnected {
+  background-image: url("../images/plug-in.by.Florian.Huber.svg");
+}
+
 #errorTitleText:-moz-dir(rtl) {
   background-position: right 0;
 }
